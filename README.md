@@ -1,16 +1,10 @@
 # Facial Expression Recognition using Deep Learning
-
-This repository contains a project that uses deep learning techniques to recognize facial expressions from images. The project utilizes the [Face Expression Recognition Dataset](https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset) from Kaggle, which consists of images labeled with one of seven emotional categories: Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral.
+This repository contains a project that uses deep learning techniques to recognize facial expressions from images. The project utilizes the [Yelp Polarity Reviews Dataset](https://www.tensorflow.org/datasets/catalog/yelp_polarity_reviews) from TensorFlow, which consists of text reviews labeled with sentiment polarity: positive or negative.
 
 ## Project Overview
 
-The goal of this project is to develop a deep learning model that can predict the emotion conveyed by a human face in an image. The project employs Convolutional Neural Networks (CNN) to classify the facial expressions based on image pixel data.
+The goal of this project is to develop a deep learning model that can predict the sentiment of a text review, whether it conveys a positive or negative emotion. The project employs Convolutional Neural Networks (CNN) to classify the sentiments based on the textual data.
 
-## Files in this Repository
-
-- **face_expression_recognition_colab.ipynb**: Colab notebook containing the code to train and test the facial expression recognition model.
-- **model.h5**: Pre-trained model for facial expression classification (optional, if available).
-- **README.md**: This file with the project details.
 
 ## Requirements
 
@@ -21,7 +15,6 @@ To run this project, you need to install the following Python libraries:
 - NumPy
 - Matplotlib
 - Pandas
-- OpenCV
 - scikit-learn
 
 ## Running the Project
