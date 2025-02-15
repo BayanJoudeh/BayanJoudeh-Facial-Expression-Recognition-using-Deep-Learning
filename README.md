@@ -19,7 +19,7 @@ To run this project, you need to install the following Python libraries:
 
 ## Running the Project
 
-1. Clone the repository or download the dataset from [Kaggle](https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset).
+1. Clone the repository or download the dataset from [TensorFlow Datasets](https://www.tensorflow.org/datasets/catalog/yelp_polarity_reviews).
 2. Open the provided Google Colab notebook (`face_expression_recognition_colab.ipynb`).
 3. Follow the instructions inside the notebook to load the dataset, preprocess the images, build the model, and train the neural network.
 4. Evaluate the model on a test set of images and analyze the results.
